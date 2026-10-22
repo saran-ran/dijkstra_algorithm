@@ -58,7 +58,7 @@ Label L({minimun_temp_dist})={L[minimun_temp_dist]} as the permanent dist. of {m
     elif minimun_temp_dist==terminal:
         Q.clear()
         print(f"Stop when {terminal} is discovered")
-        print(f"Length of the shortest path from {start} to {terminal} is {L[terminal]}")
+        print(f"!Length of the shortest path from {start} to {terminal} is {L[terminal]}")
         path = []
         temp_terminal = terminal
         while temp_terminal != start:
